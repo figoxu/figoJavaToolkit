@@ -54,7 +54,7 @@ public class GenDBManager {
         StringBuffer fileContent = new StringBuffer( "package "+managerPackage+";\n");
         fileContent.append("import org.springframework.context.annotation.Scope;\n");
         fileContent.append("import org.springframework.stereotype.Component;\n");
-        fileContent.append("import org.xxiongdi.figo.common.dao.MyBatisBaseDAO;\n");
+        fileContent.append("import me.figoxu.common.dao.MyBatisBaseDAO;\n");
         fileContent.append("import "+clazzClass.getName()+";\n\n\n");
         fileContent.append("@Scope(\"prototype\")\n");
         fileContent.append("@Component\n");
