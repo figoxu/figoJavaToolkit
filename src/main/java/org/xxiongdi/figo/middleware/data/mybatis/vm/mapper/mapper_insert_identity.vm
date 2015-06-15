@@ -1,0 +1,7 @@
+<insert id="${sqlName}" parameterType="${javaType}">
+    insert into ${tableName} (${columnNames})
+    values (${columnValues})
+    <selectKey resultType="long" keyProperty="id">
+        select LAST_INSERT_ID() as value
+    </selectKey>
+</insert>

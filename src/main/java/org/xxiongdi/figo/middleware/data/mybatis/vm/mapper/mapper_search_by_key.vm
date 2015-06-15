@@ -1,0 +1,3 @@
+<select id="${sqlName}" resultType="${javaType}" parameterType='map'>
+    select ${columnNames}  from ${tableName}   where id=#{id}
+</select>

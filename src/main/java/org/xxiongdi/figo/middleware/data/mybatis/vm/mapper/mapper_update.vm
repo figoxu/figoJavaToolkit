@@ -1,0 +1,3 @@
+<update id="${sqlName}">
+    update ${tableName} set ${columnKeyValues} where id =#{id}
+</update>

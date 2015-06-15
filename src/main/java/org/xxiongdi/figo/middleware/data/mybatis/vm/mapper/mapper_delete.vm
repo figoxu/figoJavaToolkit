@@ -1,0 +1,3 @@
+<update id="${sqlName}" parameterType="map">
+    delete  from ${tableName} where id = #{id}
+</update>

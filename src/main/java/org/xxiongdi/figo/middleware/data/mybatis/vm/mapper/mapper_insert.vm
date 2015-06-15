@@ -1,0 +1,5 @@
+<insert id="${sqlName}" parameterType="${javaType}">
+    insert into ${tableName} (${columnNames})
+    values (${columnValues})
+    on duplicate key update ${columnKeyValues}
+</insert>
