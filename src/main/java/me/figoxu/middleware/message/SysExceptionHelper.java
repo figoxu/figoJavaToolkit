@@ -1,6 +1,7 @@
 package me.figoxu.middleware.message;
 
 
+import me.figoxu.middleware.app.packet.SysException;
 
 /**
  *

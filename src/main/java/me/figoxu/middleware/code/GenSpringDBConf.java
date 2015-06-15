@@ -1,7 +1,8 @@
 package me.figoxu.middleware.code;
 
-import org.xxiongdi.figo.CodeConstants;
-import org.xxiongdi.figo.middleware.file.PackageScanner;
+
+import me.figoxu.CodeConstants;
+import me.figoxu.middleware.file.PackageScanner;
 
 import javax.persistence.Table;
 import java.util.List;

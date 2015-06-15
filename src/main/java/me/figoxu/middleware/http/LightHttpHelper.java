@@ -1,5 +1,7 @@
-package me.figoxu.middleware;
+package me.figoxu.middleware.http;
 
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.mime.MultipartEntity;
@@ -17,7 +19,7 @@ import java.util.List;
  * Time: 下午12:02
  * To change this template use File | Settings | File Templates.
  */
-public class HttpHelper {
+public class LightHttpHelper {
     public String post(String url,List<BasicHeader> headerList,MultipartEntity entity) throws IOException {
         HttpPost httppost = new HttpPost(url);
         for(BasicHeader header:headerList) {

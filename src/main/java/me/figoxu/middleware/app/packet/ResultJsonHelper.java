@@ -1,9 +1,8 @@
-package me.figoxu.middleware;
+package me.figoxu.middleware.app.packet;
 
-import org.xxiongdi.zfct.middleware.gson.GsonInstance;
-import org.xxiongdi.zfct.vo.ErrorInfo;
-import org.xxiongdi.zfct.vo.ResultJson;
-import org.xxiongdi.zfct.vo.SysException;
+
+import com.google.gson.*;
+import me.figoxu.middleware.gson.GsonInstance;
 
 import java.util.ArrayList;
 import java.util.Iterator;

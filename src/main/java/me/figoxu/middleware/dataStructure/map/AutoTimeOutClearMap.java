@@ -1,6 +1,7 @@
 package me.figoxu.middleware.dataStructure.map;
 
-import org.xxiongdi.zfct.core.task.PluginAbleTimeTask;
+
+import me.figoxu.middleware.task.PluginAbleTimeTask;
 
 import java.util.ArrayList;
 import java.util.Iterator;

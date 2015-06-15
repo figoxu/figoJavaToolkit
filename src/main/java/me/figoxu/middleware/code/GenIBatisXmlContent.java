@@ -1,9 +1,10 @@
 package me.figoxu.middleware.code;
 
-import org.xxiongdi.figo.CodeConstants;
-import org.xxiongdi.figo.middleware.data.mybatis.MapperGenerator;
-import org.xxiongdi.figo.middleware.file.PackageScanner;
-import org.xxiongdi.zfct.middleware.FileReadWriteHelper;
+
+import me.figoxu.CodeConstants;
+import me.figoxu.middleware.data.mybatis.MapperGenerator;
+import me.figoxu.middleware.file.FileReadWriteHelper;
+import me.figoxu.middleware.file.PackageScanner;
 
 import javax.persistence.Table;
 import java.io.File;
@@ -42,7 +43,7 @@ public class GenIBatisXmlContent {
                 FileReadWriteHelper.appendFile(appendFileName, "" +
                         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
                         "<!DOCTYPE mapper PUBLIC \"-//mybatis.org//DTD Mapper 3.0//EN\" \"http://mybatis.org/dtd/mybatis-3-mapper.dtd\">\n" +
-                        "<mapper namespace=\""+jdbcManagerPackage+"."+ simpleName +"Mapper\">\n\n" + "</mapper>");
+                        "<mapper namespace=\"" + jdbcManagerPackage + "." + simpleName + "Mapper\">\n\n" + "</mapper>");
             }
         } catch (Exception e) {
             e.printStackTrace();

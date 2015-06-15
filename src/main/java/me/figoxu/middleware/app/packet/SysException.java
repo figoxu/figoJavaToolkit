@@ -1,4 +1,4 @@
-package me.figoxu.middleware.message;
+package me.figoxu.middleware.app.packet;
 
 /**
  * Created by figo on 2015/6/15.

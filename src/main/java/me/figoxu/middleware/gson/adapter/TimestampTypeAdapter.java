@@ -1,5 +1,7 @@
 package me.figoxu.middleware.gson.adapter;
 
+import com.google.gson.*;
+
 import java.lang.reflect.Type;
 import java.sql.Timestamp;
 import java.text.DateFormat;
